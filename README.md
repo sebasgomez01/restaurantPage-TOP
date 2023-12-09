@@ -1,2 +1,2 @@
 # restaurantPage-TOP
-A restaurant page dynamycally generated with HTML, CSS and Javascript
+A restaurant page dynamically generated with HTML, CSS and Javascript
