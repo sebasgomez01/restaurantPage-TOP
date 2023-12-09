@@ -1,0 +1,67 @@
+body {
+  margin: 0;        /* Elimina el margen predeterminado del body */
+  padding: 0;       /* Elimina el relleno predeterminado del body */
+  height: 100vh;    /* Establece la altura al 100% de la altura visible del viewport */
+  overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal si es necesario */
+  color: rgba(0, 0, 0, 0.7); /* Texto negro con opacidad del 70% */
+  background-image: url('restaurantBackgroundImage.jpg');
+  background-size: cover;
+
+}
+
+p {
+	font-size: 20px;
+	width: 50%;
+}
+
+#content {
+	
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: space-between;
+	row-gap: 50px;
+}
+
+#navbar {
+	width: 100%;
+	
+}
+
+#navList {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+
+#mainContent {
+	display: flex;
+	width: 90%;
+	height: 60%;
+	justify-content: center;
+	align-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+#description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.listElem {
+	border-style: solid;
+	font-size: 35px;
+	padding:  10px 70px 10px 70px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 100%;
+}
