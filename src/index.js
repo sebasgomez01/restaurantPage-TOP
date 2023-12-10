@@ -1,1 +1,3 @@
-console.log("Hola pelotudo");
+import { generateHome } from './home';
+
+generateHome();
