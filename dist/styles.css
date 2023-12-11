@@ -5,7 +5,7 @@ body {
   /* La línea anterior me causaba el error del navbar y no sé por qué */
   overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal si es necesario */
   color: rgba(0, 0, 0, 0.7); /* Texto negro con opacidad del 70% */
-  background-image: url('restaurantBackgroundImage.avif');
+  background-image: url('img/restaurantBackgroundImage.avif');
   background-size: repeat;
   font-family: 'Rethink Sans', sans-serif;
 
@@ -50,6 +50,7 @@ p {
 	display: flex;
 	width: 90%;
 	justify-content: center;
+	align-items: center;
 	align-content: center;
 	background-color: rgba(255, 255, 255, 0.8);
 	flex-direction: column;
@@ -124,3 +125,13 @@ footer {
 	width: 60%;
 }
 
+#socialMedia {
+	display: flex;
+	flex-direction: row;
+	column-gap: 20px;
+}
+
+.socialMediaButton {
+	width: 100px;
+	height: 100px;
+}

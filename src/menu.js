@@ -4,42 +4,42 @@ const content = document.getElementById('content');
 const body = document.getElementById('body');
 const dataComidaMenuItems = [
 	{
-		'srcImg': 'pasta.jpg',
+		'srcImg': 'img/pasta.jpg',
 		'altImg': 'Pasta',
 		'h2Text': 'Pasta',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 	},
 
 	{
-		'srcImg': 'sushi.jfif',
+		'srcImg': 'img/sushi.jfif',
 		'altImg': 'Sushi',
 		'h2Text': 'Sushi',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 	},
 
 	{
-		'srcImg': 'empanadas.jfif',
+		'srcImg': 'img/empanadas.jfif',
 		'altImg': 'Empanadas',
 		'h2Text': 'Empanadas',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 	},
 
 	{
-		'srcImg': 'pizza.webp',
+		'srcImg': 'img/pizza.webp',
 		'altImg': 'Pizza',
 		'h2Text': 'Pizza',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 	},
 
 	{
-		'srcImg': 'milanesas.webp',
+		'srcImg': 'img/milanesas.webp',
 		'altImg': 'Milanesas',
 		'h2Text': 'Milanesas',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 	},
 
 	{
-		'srcImg': 'choripan.jfif',
+		'srcImg': 'img/choripan.jfif',
 		'altImg': 'Choripan',
 		'h2Text': 'Choripan',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
@@ -49,42 +49,42 @@ const dataComidaMenuItems = [
 
 const dataBebidasMenuItems = [
 	{
-		'srcImg': 'cocaCola.png',
+		'srcImg': 'img/cocaCola.png',
 		'altImg': 'Coca Cola',
 		'h2Text': 'Coca Cola',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 	},
 
 	{
-		'srcImg': 'heineken.png',
+		'srcImg': 'img/heineken.png',
 		'altImg': 'Heineken',
 		'h2Text': 'Heineken',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 	},
 
 	{
-		'srcImg': 'wine.avif',
+		'srcImg': 'img/wine.avif',
 		'altImg': 'Wines',
 		'h2Text': 'Wines',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 	},
 
 	{
-		'srcImg': 'monster.jfif',
+		'srcImg': 'img/monster.jfif',
 		'altImg': 'Monster',
 		'h2Text': 'Monster',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 	},
 
 	{
-		'srcImg': 'coffe.jpg',
+		'srcImg': 'img/coffe.jpg',
 		'altImg': 'Coffe',
 		'h2Text': 'Coffe',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 	},
 
 	{
-		'srcImg': 'tea.jfif',
+		'srcImg': 'img/tea.jfif',
 		'altImg': 'Earl Grey Tea',
 		'h2Text': 'Earl Grey Tea',
 		'pText': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '

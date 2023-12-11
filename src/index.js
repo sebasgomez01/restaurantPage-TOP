@@ -1,5 +1,6 @@
 import { generateHome } from './home';
-import { generateMenu } from './menu'
+import { generateMenu } from './menu';
+import { generateContact } from './contact';
 
 generateHome();
 
@@ -47,6 +48,8 @@ contentDiv.addEventListener('click', function(event) {
             generateHome();
         } else if (liId === 'liMenu') {
             generateMenu();
+        } else if (liId === 'liContact') {
+        	generateContact();
         }
     }
 });

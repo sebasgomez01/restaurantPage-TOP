@@ -93,7 +93,7 @@ export function generateHeader() {
 	navList.appendChild(menuElement);
 
 	let contactElement = document.createElement('li');
-	contactElement.id = 'liElement';
+	contactElement.id = 'liContact';
 	contactElement.textContent = 'Contact';
 	contactElement.classList.add('listElem');
 	navList.appendChild(contactElement);
