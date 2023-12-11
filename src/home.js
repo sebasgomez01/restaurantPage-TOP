@@ -64,7 +64,7 @@ const generateHome = () => {
 	generateFooter();
 }
 
-function generateHeader() {
+export function generateHeader() {
 	// Creo el navbar y lo agrego al body#body
 	let navbar = document.createElement('header');
 	navbar.id = 'navbar';
@@ -81,16 +81,19 @@ function generateHeader() {
 
 	// Creo los elementos de la lista y los agrego
 	let homeElement = document.createElement('li');
+	homeElement.id = 'liHome';
 	homeElement.textContent = 'Home';
 	homeElement.classList.add('listElem');
 	navList.appendChild(homeElement);
 
 	let menuElement = document.createElement('li');
+	menuElement.id = 'liMenu';
 	menuElement.textContent = 'Menu';
 	menuElement.classList.add('listElem');
 	navList.appendChild(menuElement);
 
 	let contactElement = document.createElement('li');
+	contactElement.id = 'liElement';
 	contactElement.textContent = 'Contact';
 	contactElement.classList.add('listElem');
 	navList.appendChild(contactElement);
@@ -153,7 +156,7 @@ function generateMainContent() {
 	direction.appendChild(pDirection);
 }
 
-function generateFooter() {
+export function generateFooter() {
 	// Creo el elemento footer y lo agrego como child de #content
 	let footer = document.createElement('footer');
 	content.appendChild(footer);

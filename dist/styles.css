@@ -1,11 +1,12 @@
 body {
   margin: 0;        /* Elimina el margen predeterminado del body */
   padding: 0;       /* Elimina el relleno predeterminado del body */
-  height: 100vh;    /* Establece la altura al 100% de la altura visible del viewport */
+  /*height: 100vh;    /* Establece la altura al 100% de la altura visible del viewport */ 
+  /* La línea anterior me causaba el error del navbar y no sé por qué */
   overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal si es necesario */
   color: rgba(0, 0, 0, 0.7); /* Texto negro con opacidad del 70% */
   background-image: url('restaurantBackgroundImage.avif');
-  background-size: cover;
+  background-size: repeat;
   font-family: 'Rethink Sans', sans-serif;
 
 }
@@ -19,20 +20,23 @@ p {
 	font-size: 20px;
 }
 
+
+
 #content {
 	display: flex;
 	height: 100%;
+	width: 100%;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	align-content: space-between;
 	row-gap: 50px;
-	padding-top: 100px ;
+	/*padding-top: 100px ;*/
 }
 
 #navbar {
 	width: 100%;
-	padding-top: 80px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
@@ -45,13 +49,13 @@ p {
 #mainContent {
 	display: flex;
 	width: 90%;
-	
 	justify-content: center;
 	align-content: center;
 	background-color: rgba(255, 255, 255, 0.8);
 	flex-direction: column;
-	
 }
+
+
 
 #description, #hours, #direction {
 	display: flex;
@@ -76,3 +80,47 @@ footer {
 	background-color: rgba(255, 255, 255, 0.8);
 	width: 100%;
 }
+
+#menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 85%;
+	border-style: solid;
+	border-color: black;
+}
+
+#menuH1 {
+	display: flex;
+	justify-content: center;
+}
+
+.menuItems {
+	display: grid;
+	row-gap: 40px;
+	grid-template-columns: [firstColumn] 1fr [secondColumn] 1fr;
+	padding: 10px;
+
+}
+
+.menuImages {
+	width: 350px;
+	height: 350px;
+	border-style: solid;
+	border-color: black;
+}
+
+.menuItem {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.menuItemP {
+	width: 60%;
+}
+
